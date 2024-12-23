@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar a{
+    margin: 63px;
+   
+}
+.navbar{
+    /* border-bottom: px ; */
+    box-shadow:  1px 1px 10px 1px;
+    position: sticky;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+div{
+    /* border: 1px solid black; */
+    line-height: 50px;
+    /* border-bottom: 1px solid black; */
+}    
+div img{
+    height: 45px;
+    width: 50px;
+    float: left;
+}
+.main img{
+    margin-top: 70px;
+    height: 300px;
+    width: 600px;
+    margin-top: 0px;
+    float: right;
+}
+.main h1{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.main p{
+    margin-left: 150px;
+}
+.main button{
+    margin-left: 150px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: small;
+    font-weight: bold;
+    background-color:purple;
+    color: white;
+    height: 35px;
+    margin-top: 10px;
+    
+}
+#text{
+    width: 400px;
+}
+#btn{
+    margin-left: 10px;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+  
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.container2{
+    margin-top: 35px;
+    margin-left: 450px;
+   
+}
+.container2 h4{
+    margin-left: 150px;
+}
+.container2 h2{
+    width: px ;
+}
+.one,.two,.three,.four{
+    border: 1px solid black;
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.container2 p{
+     margin-left:150px ;
+}
+.container3 div{
+    border: 2px solid black;
+    height: 300px;
+    width: 250px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+}
+.one h2{
+    display: flex;
+    justify-content: center;
+}
+.two h2{
+    display: flex;
+    justify-content: center;
+
+}
+.three h2{
+    display: flex;
+    justify-content: center;
+}
+.four h2{
+    display: flex;
+    justify-content: center;
+}
+.two img{
+    padding-left: 85px;
+    padding-top: 10px;
+    width: 80px;
+    height: 70px; 
+    
+}
+.one img{
+    padding-left: 85px;
+    padding-top: 10px;
+    width: 80px;
+    height: 70px; 
+}
+ 
+.three img{
+    padding-left: 85px;
+    padding-top: 10px;
+    width: 80px;
+    height: 70px; 
+}
+.four img{
+    padding-left: 85px;
+    padding-top: 10px;
+    width: 80px;
+    height: 70px; 
+
+}
+.one{
+    transition:0.5s 0.5s;
+    transform: 0s;
+}
+.one p{
+    padding-left: 15px;
+    font-size: larger;
+    /* font-weight: bold; */
+}
+.one a{
+   padding-left: 75px;  
+   font-size: larger; 
+   font-weight: bolder;
+}
+.one:hover{
+    background-color: red;
+    color: white;
+    scale: 1.1;
+}
+.two{
+    transition:0.5s 0.5s;
+    transform: 0s
+}
+.two{
+    background-color: red;
+    color: white;
+}
+.two p{
+    padding-left: 15px;
+    font-size: larger;
+}
+.two a{
+    padding-left: 75px;  
+    font-size: larger; 
+    font-weight: bold
+}
+.two:hover{
+    scale: 1.1;
+}
+.three{
+    transition:0.5s 0.5s;
+    transform: 0s;
+}
+.three p{
+    padding-left: 15px;
+    font-size: larger;
+}
+.three a{
+    padding-left: 75px;  
+    font-size: larger; 
+    font-weight: bold
+}
+.three:hover{
+    scale: 1.1;
+    background-color: red;
+    color: white;
+}
+.four{
+    transition:0.5s 0.5s;
+    transform: 0s;
+}
+.four p{
+    padding-left: 15px;
+    font-size: larger;
+}
+.four a{
+    padding-left: 75px;  
+    font-size: larger; 
+    font-weight: bold
+}
+.four:hover{
+    scale: 1.1;
+    background-color: red;
+    color: white;
+}
+.secondary{
+    margin-top: 100px;
+}
+.secondary img{
+    margin-top: 70px;
+    height: 360px;
+    width: 600px;
+    /* margin-top: 200px; */
+}
+.secondary button{
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: small;
+    font-weight: bolder;
+    background-color:purple;
+    color: white;
+    height: 35px;
+    margin-top: 10px;
+    
+}
+.secondary button:hover{
+    background-color: white;
+    color: black;
+}
+.container img{
+    margin-top: 70px;
+    height: 400px;
+    width: 500px;
+    margin-top: 200px;
+    float: right;
+}
+.para1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.heading1{
+    margin-left: 50px;
+}
+.para2{
+    margin-left: 50px;
+}
+.heading2{
+    margin-left:50px ;
+}
+.para3{
+    margin-left: 50px;
+}
+.container4{
+    margin-top: 70px;
+}
+.para4{
+    margin-left: 50px;
+}
+.container5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.img{
+    height: 300px;
+    width: 230px;
+    transition:0.5s 0.5s;
+    cursor: pointer;
+}
+.img:hover{
+    scale: 1.1;
+}
+.container6{
+    margin-top:70px;
+}
+.container6 img{
+    height: 400px;
+    width: 500px;
+    float: right;
+}
+.btn1{
+    margin-left: 70px;
+    margin-top: 45px;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+}
+.btn1:hover{
+    background-color:white;
+}
+.btn2{
+    margin-left: 70px;
+    margin-top: 45px;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    color:black;
+    /* border-color:red ; */
+    background-color: white;
+}
+.btn2:hover{
+    background-color: purple;
+    color: white;
+}
+.container7{
+    margin-top: 90px;
+    width: 900px;
+}
+.container7 p{
+  padding-left: 600px;
+}
+.container7 h1{
+    margin-left: 400px;
+}
+.container8{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    transition:0.5s 0.5s;
+   
+}
+.container8 div{
+    height: 300px;
+    width: 290px;
+    border: 1px solid black;
+     margin-left: 100px;
+     transition:0.5s 0.5s;
+}
+.container8 h3{
+    padding-left: 20px;
+}
+.container8 p{
+    padding-left: 15px;
+}
+.container8 img{
+    padding-top:25px;
+    padding-left: 110px;
+}
+.container8 div:hover{
+    scale: 1.1;
+    background-color: red;
+    color: white;
+}
+.container9{
+    background-color: purple;
+    height: 380px;
+    margin-top: 80px;
+    color: white;
+    font-size:smaller;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container9 a{
+    color: white;
+    margin-left: 110px;
+}
+.container9 a:hover{
+    color: red;
+}
+.container9 img{
+    padding-top: 80px;
+    padding-left: 20px;
+    
+}
+.container9 h2{
+    padding-top: 80px;
+    padding-left: 90px;
+}
+.container9 h2:hover{
+    color: red;
+}
+.container9 p{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.container9 p:hover{
+    color: red;
+}
+i{
+    padding-left:20px ;
+    margin-left: 20px;
+    cursor: pointer;
+    transition:0.5s 0.5s;
+    
+}
+i:hover{
+    scale: 1.1;
+}
